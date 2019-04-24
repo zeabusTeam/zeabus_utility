@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<package format="2">
+
+    <name>zeabus_utility</name>
+    <version>1.0.0</version>
+    <description>Zeabus Team message and service</description>
+
+    <maintainer email="supasan.k@ku.th">Supasan Komonlit</maintainer>
+
+    <license>GPLv2</license>
+
+    <author>Supasan Komonlit</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>message_generation</build_depend>
+    <exec_depend>message_runtion</exec_depend>
+
+</package>

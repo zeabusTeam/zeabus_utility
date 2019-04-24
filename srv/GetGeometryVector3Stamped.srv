@@ -1,0 +1,6 @@
+bool data
+---
+# This header for stamp about time when callback have been called
+std_msgs/Header header 
+# next message will have time stamp that is tell you about what time updated data
+geometry_msgs/Vector3Stamped data
