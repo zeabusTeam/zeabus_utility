@@ -24,3 +24,13 @@ generate_messages(
     sensor_msgs
     geometry_msgs
 )
+
+set( message_on_service
+    std_msgs
+    geometry_msgs
+    sensor_msgs
+)
+
+catkin_package(
+    CATKIN_DEPENDS message_runtime ${message_on_service}
+)
