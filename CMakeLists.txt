@@ -12,12 +12,17 @@ find_package( catkin REQUIRED COMPONENTS std_msgs
     sensor_msgs
 )
 
+add_message_files(
+  FILES
+  VisionQualification.msg
+)
+
 add_service_files(
     FILES
     GetGeometryVector3Stamped.srv
     GetSensorImu.srv
-    VisionQualification.srv
-    VisionReset.srv
+    VisionSrvQualification.srv
+    # VisionReset.srv
 )
 
 generate_messages(
