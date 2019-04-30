@@ -16,6 +16,7 @@ add_service_files(
     FILES
     GetGeometryVector3Stamped.srv
     GetSensorImu.srv
+    SendUInt16Array.srv
 )
 
 generate_messages(
