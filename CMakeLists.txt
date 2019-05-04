@@ -22,7 +22,7 @@ add_service_files(
     GetGeometryVector3Stamped.srv
     GetSensorImu.srv
     VisionSrvQualification.srv
-    # VisionReset.srv
+    SendUInt16Array.srv
 )
 
 generate_messages(
