@@ -1,0 +1,3 @@
+std_msgs/String cmd
+---
+std_msgs/Bool reset
