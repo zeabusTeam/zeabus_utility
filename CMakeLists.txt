@@ -23,6 +23,7 @@ add_service_files(
     GetSensorImu.srv
     VisionSrvQualification.srv
     SendUInt16Array.srv
+    DepthCommand.srv
 )
 
 generate_messages(
