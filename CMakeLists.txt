@@ -13,8 +13,9 @@ find_package( catkin REQUIRED COMPONENTS std_msgs
 )
 
 add_message_files(
-  FILES
-  VisionQualification.msg
+    FILES
+    VisionQualification.msg
+    HeaderFloat64.msg
 )
 
 add_service_files(
