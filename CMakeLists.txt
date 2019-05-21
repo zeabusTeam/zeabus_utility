@@ -10,6 +10,7 @@ find_package( catkin REQUIRED COMPONENTS std_msgs
     message_generation 
     geometry_msgs 
     sensor_msgs
+    nav_msgs
 )
 
 add_message_files(
@@ -25,6 +26,7 @@ add_service_files(
     VisionSrvQualification.srv
     SendUInt16Array.srv
     DepthCommand.srv
+    AUVState.srv
 )
 
 generate_messages(
@@ -32,12 +34,14 @@ generate_messages(
     std_msgs
     sensor_msgs
     geometry_msgs
+    nav_msgs
 )
 
 set( message_on_service
     std_msgs
     geometry_msgs
     sensor_msgs
+    nav_msgs
 )
 
 catkin_package(
