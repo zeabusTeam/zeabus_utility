@@ -17,6 +17,7 @@ add_message_files(
     FILES
     VisionQualification.msg
     HeaderFloat64.msg
+    AUVState.msg
 )
 
 add_service_files(
@@ -26,7 +27,7 @@ add_service_files(
     VisionSrvQualification.srv
     SendUInt16Array.srv
     DepthCommand.srv
-    AUVState.srv
+    GetAUVState.srv
 )
 
 generate_messages(
