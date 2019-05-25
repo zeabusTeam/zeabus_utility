@@ -29,7 +29,7 @@ add_service_files(
     # Service maintain by K.Supasan
     GetAUVState.srv
     GetSensorImu.srv
-    SendUInt16Array.srv
+    SendThrottle.srv
     SendControlCommand.srv
     GetGeometryVector3Stamped.srv
 )
