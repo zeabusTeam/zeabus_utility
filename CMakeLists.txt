@@ -20,11 +20,12 @@ add_message_files(
     AUVState.msg
     HeaderFloat64.msg
     ControlCommand.msg
+    # Message maintain by Natchanan Thongtem
+    TelemetryStruct.msg
 )
 
 add_service_files(
     FILES
-    DepthCommand.srv
     VisionSrvQualification.srv
     # Service maintain by K.Supasan
     GetAUVState.srv
@@ -32,6 +33,9 @@ add_service_files(
     SendThrottle.srv
     SendControlCommand.srv
     GetGeometryVector3Stamped.srv
+    # Service maintain by Natchanan Thongtem
+    DepthCommand.srv
+    Telemetry.srv
 )
 
 generate_messages(
