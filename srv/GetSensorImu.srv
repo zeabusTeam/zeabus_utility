@@ -1,6 +1,3 @@
-bool data
 ---
-# This header for stamp about time when callback have been called
-std_msgs/Header header 
-# next message will have time stamp that is tell you about what time updated data
+# message will have time stamp that is tell you about what time updated data
 sensor_msgs/Imu data
