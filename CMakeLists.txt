@@ -16,6 +16,7 @@ add_service_files(
     FILES
     GetGeometryVector3Stamped.srv
     GetSensorImu.srv
+    VisionGate.srv
 )
 
 generate_messages(
