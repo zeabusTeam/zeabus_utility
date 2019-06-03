@@ -22,6 +22,7 @@ add_message_files(
     ControlCommand.msg
     # Message maintain by Natchanan Thongtem
     TelemetryStruct.msg
+    VisionPath.msg
 )
 
 add_service_files(
@@ -30,12 +31,15 @@ add_service_files(
     # Service maintain by K.Supasan
     GetAUVState.srv
     GetSensorImu.srv
+    VisionGate.srv
     SendThrottle.srv
     SendControlCommand.srv
     GetGeometryVector3Stamped.srv
     # Service maintain by Natchanan Thongtem
     DepthCommand.srv
     Telemetry.srv
+    VisionSrvPath.srv
+    SendUInt16Array.srv
 )
 
 generate_messages(
