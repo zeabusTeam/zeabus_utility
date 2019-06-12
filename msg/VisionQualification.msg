@@ -1,7 +1,5 @@
-std_msgs/Int64 state
-std_msgs/Int64 pos
-std_msgs/Float64 cx1
-std_msgs/Float64 cy1
-std_msgs/Float64 cx2
-std_msgs/Float64 cy2
-std_msgs/Float64 area
+std_msgs/Header header
+std_msgs/Int64 type
+std_msgs/String name
+geometry_msgs/Point point1
+geometry_msgs/Point point2
