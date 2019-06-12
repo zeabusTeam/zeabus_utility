@@ -4,3 +4,4 @@ zeabus_utility/FuzzyParam error
 zeabus_utility/FuzzyParam diff
 zeabus_utility/FuzzyParam force
 zeabus_utility/FuzzyParam output
+float64 result
