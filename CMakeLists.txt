@@ -17,14 +17,16 @@ add_message_files(
     FILES
     # Message maintain by Korrawit Chaikangwan
     VisionQualification.msg
+    # Message maintain by Natthaphat Wattanachansit
+    VisionPath.msg
     # Message maintain by K.Supasan
     AUVState.msg
+    FuzzyParam.msg
+    ControlFuzzy.msg
     HeaderFloat64.msg
     ControlCommand.msg
     # Message maintain by Natchanan Thongtem
     TelemetryStruct.msg
-    # Message maintain by Natthaphat Wattanachansit
-    VisionPath.msg
 )
 
 add_service_files(
