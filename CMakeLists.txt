@@ -1,4 +1,4 @@
-TelemetryStruct# This line will acquire and ensure version of cmake which you use2
+# This line will acquire and ensure version of cmake which you use
 # This version 2.8.3 we use this minimum because that is default of ROS distro MELODIC
 cmake_minimum_required( VERSION 2.8.3 )
 
