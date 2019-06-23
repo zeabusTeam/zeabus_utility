@@ -1,4 +1,4 @@
-# This line will acquire and ensure version of cmake which you use 
+TelemetryStruct# This line will acquire and ensure version of cmake which you use2
 # This version 2.8.3 we use this minimum because that is default of ROS distro MELODIC
 cmake_minimum_required( VERSION 2.8.3 )
 
@@ -26,7 +26,7 @@ add_message_files(
     HeaderFloat64.msg
     ControlCommand.msg
     # Message maintain by Natchanan Thongtem
-    TelemetryStruct.msg
+    StructTelemetry.msg
 )
 
 add_service_files(
@@ -40,9 +40,8 @@ add_service_files(
     SendControlCommand.srv
     GetGeometryVector3Stamped.srv
     # Service maintain by Natchanan Thongtem
-    DepthCommand.srv
+    ServiceDepth.srv
     Telemetry.srv
-    SendUInt16Array.srv
     # Message maintain by Natthaphat Wattanachansit
     VisionSrvPath.srv
     # Message maintain by Phitchawat L.
