@@ -41,7 +41,7 @@ add_service_files(
     GetGeometryVector3Stamped.srv
     # Service maintain by Natchanan Thongtem
     ServiceDepth.srv
-    Telemetry.srv
+    ServiceGetTelemetry.srv
     # Message maintain by Natthaphat Wattanachansit
     VisionSrvPath.srv
     # Message maintain by Phitchawat L.
