@@ -19,6 +19,7 @@ add_message_files(
     VisionQualification.msg
     # Message maintain by Natthaphat Wattanachansit
     VisionPath.msg
+    Int16Array.msg
     # Message maintain by K.Supasan
     AUVState.msg
     FuzzyParam.msg
