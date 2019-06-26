@@ -27,6 +27,7 @@ add_message_files(
     ControlCommand.msg
     # Message maintain by Natchanan Thongtem
     StructTelemetry.msg
+    MessagePlannerSwitch.msg
 )
 
 add_service_files(
