@@ -28,6 +28,7 @@ add_message_files(
     ControlCommand.msg
     # Message maintain by Natchanan Thongtem
     StructTelemetry.msg
+    MessagePlannerSwitch.msg
 )
 
 add_service_files(
@@ -35,6 +36,7 @@ add_service_files(
     # Service maintain by Korrawit Chaikangwan
     VisionSrvQualification.srv
     # Service maintain by K.Supasan
+    SendBool.srv
     GetAUVState.srv
     GetSensorImu.srv
     SendThrottle.srv
