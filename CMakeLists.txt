@@ -35,6 +35,7 @@ add_service_files(
     # Service maintain by Korrawit Chaikangwan
     VisionSrvQualification.srv
     # Service maintain by K.Supasan
+    SendBool.srv
     GetAUVState.srv
     GetSensorImu.srv
     SendThrottle.srv
