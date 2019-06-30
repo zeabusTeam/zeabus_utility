@@ -1,5 +1,7 @@
 # Call
+# buoy or BLANK
 std_msgs/String task
+# BLANK
 std_msgs/String req
 ---
 # Return
@@ -7,7 +9,11 @@ std_msgs/String req
 # 1 = Found
 # -1 = Internal Error
 int8 found
+# Centre X (from -1 to 1 and -1 is left)
 float64 cx
+# Centre Y (from -1 to 1 and -1 is top)
 float64 cy
+# Score (from 0 to 1)
 float64 score
+# Area (Normalise with img area from 0 to 1)
 float64 area
