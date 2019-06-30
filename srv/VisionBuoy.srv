@@ -1,0 +1,13 @@
+# Call
+std_msgs/String task
+std_msgs/String req
+---
+# Return
+# 0 = Not Found
+# 1 = Found
+# -1 = Internal Error
+int8 found
+float64 cx
+float64 cy
+float64 score
+float64 area
