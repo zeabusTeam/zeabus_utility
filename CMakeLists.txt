@@ -49,6 +49,7 @@ add_service_files(
     VisionSrvPath.srv
     # Message maintain by Phitchawat L.
     VisionGate.srv
+    VisionBuoy.srv
 )
 
 generate_messages(
