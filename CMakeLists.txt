@@ -17,6 +17,7 @@ add_message_files(
     FILES
     # Message maintain by Korrawit Chaikangwan
     VisionQualification.msg
+    VisionStake.msg
     # Message maintain by Natthaphat Wattanachansit
     VisionPath.msg
     Int16Array.msg
@@ -35,6 +36,7 @@ add_service_files(
     FILES
     # Service maintain by Korrawit Chaikangwan
     VisionSrvQualification.srv
+    VisionSrvStake.srv
     # Service maintain by K.Supasan
     SendBool.srv
     GetAUVState.srv
