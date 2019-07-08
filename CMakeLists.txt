@@ -38,6 +38,7 @@ add_service_files(
     # Service maintain by Korrawit Chaikangwan
     VisionSrvQualification.srv
     VisionSrvStake.srv
+    VisionSrvExposed.srv
     # Service maintain by K.Supasan
     SendBool.srv
     GetAUVState.srv
@@ -49,7 +50,7 @@ add_service_files(
     ServiceDepth.srv
     ServiceGetTelemetry.srv
     # Message maintain by Natthaphat Wattanachansit
-    VisionSrvBox.srv
+    VisionSrvDropGarlic.srv
     VisionSrvPath.srv
     # Message maintain by Phitchawat L.
     VisionGate.srv
