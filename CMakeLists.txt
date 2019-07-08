@@ -18,6 +18,7 @@ add_message_files(
     # Message maintain by Korrawit Chaikangwan
     VisionQualification.msg
     # Message maintain by Natthaphat Wattanachansit
+    VisionBox.msg
     VisionPath.msg
     Int16Array.msg
     # Message maintain by K.Supasan
@@ -46,6 +47,7 @@ add_service_files(
     ServiceDepth.srv
     ServiceGetTelemetry.srv
     # Message maintain by Natthaphat Wattanachansit
+    VisionSrvBox.srv
     VisionSrvPath.srv
     # Message maintain by Phitchawat L.
     VisionGate.srv
