@@ -18,6 +18,7 @@ add_message_files(
     # Message maintain by Korrawit Chaikangwan
     VisionQualification.msg
     VisionStake.msg
+    VisionCoffins.msg
     # Message maintain by Natthaphat Wattanachansit
     VisionBox.msg
     VisionPath.msg

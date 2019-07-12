@@ -1,5 +1,5 @@
 std_msgs/String task
 std_msgs/String request
 ---
-zeabus_utility/VisionBox[2] data
+zeabus_utility/VisionCoffins data
 
