@@ -1,5 +1,6 @@
 std_msgs/String task
 std_msgs/String request
 ---
+int64 state
 zeabus_utility/VisionBox[2] data
 
