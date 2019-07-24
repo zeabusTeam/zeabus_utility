@@ -40,6 +40,7 @@ add_service_files(
     VisionSrvCoffin.srv
     # Service maintain by K.Supasan
     SendBool.srv
+    SendFloat.srv
     GetAUVState.srv
     GetSensorImu.srv
     SendThrottle.srv
