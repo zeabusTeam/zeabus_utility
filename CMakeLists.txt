@@ -38,6 +38,7 @@ add_service_files(
     VisionSrvQualification.srv
     VisionSrvStake.srv
     VisionSrvCoffin.srv
+    VisionSrvAE.srv
     # Service maintain by K.Supasan
     SendBool.srv
     GetAUVState.srv
