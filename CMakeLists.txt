@@ -22,6 +22,7 @@ add_message_files(
     VisionPath.msg
     Int16Array.msg
     # Message maintain by K.Supasan
+    Ahrs.msg
     AUVState.msg
     FuzzyParam.msg
     ControlFuzzy.msg
