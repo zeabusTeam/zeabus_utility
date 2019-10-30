@@ -24,9 +24,9 @@ add_message_files(
     # Message maintain by K.Supasan
     Ahrs.msg
     AUVState.msg
+    FuzzyParam.msg
     Int16Array8.msg
     Float64Array.msg
-    FuzzyParam.msg
     ControlFuzzy.msg
     HeaderFloat64.msg
     ControlCommand.msg
