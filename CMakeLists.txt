@@ -28,6 +28,7 @@ add_message_files(
     Int16Array8.msg
     Float64Array.msg
     ControlFuzzy.msg
+    Float64Array8.msg
     HeaderFloat64.msg
     ControlCommand.msg
     # Message maintain by Natchanan Thongtem
