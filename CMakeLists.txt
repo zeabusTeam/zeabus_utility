@@ -26,6 +26,7 @@ add_message_files(
     AUVState.msg
     FuzzyParam.msg
     Int16Array8.msg
+    UInt32Array8.msg
     Float64Array.msg
     ControlFuzzy.msg
     Float64Array8.msg
