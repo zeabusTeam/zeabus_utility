@@ -1,0 +1,4 @@
+bool activate_mask
+bool[ 6 ] target_mask
+---
+bool[ 6 ] current_mask

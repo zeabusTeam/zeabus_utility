@@ -48,6 +48,7 @@ add_service_files(
     SendBool.srv
     SendFloat.srv
     GetAUVState.srv
+    ServiceMask.srv
     GetSensorImu.srv
     SendThrottle.srv
     SendControlCommand.srv
