@@ -25,6 +25,7 @@ add_message_files(
     Ahrs.msg
     AUVState.msg
     FuzzyParam.msg
+    BoolArray6.msg
     Int16Array8.msg
     UInt32Array8.msg
     Float64Array.msg
