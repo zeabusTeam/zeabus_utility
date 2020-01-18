@@ -1,0 +1,7 @@
+# activate_data is True if want to set data
+std_msgs/Header header 
+bool activate_data
+bool data
+---
+# return current data
+bool data
