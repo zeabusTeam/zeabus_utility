@@ -30,6 +30,8 @@ add_message_files(
     UInt32Array8.msg
     Float64Array.msg
     ControlFuzzy.msg
+    VisionResult.msg
+    VisionResults.msg
     Float64Array8.msg
     HeaderFloat64.msg
     ControlCommand.msg
