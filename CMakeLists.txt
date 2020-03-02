@@ -55,6 +55,7 @@ add_service_files(
     ServiceBool.srv
     GetSensorImu.srv
     SendThrottle.srv
+    StateConnection.srv
     SendControlCommand.srv
     GetGeometryVector3Stamped.srv
     # Service maintain by Natchanan Thongtem
