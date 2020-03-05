@@ -32,6 +32,7 @@ add_message_files(
     ControlFuzzy.msg
     VisionResult.msg
     VisionResults.msg
+    Float64Array6.msg
     Float64Array8.msg
     HeaderFloat64.msg
     ControlCommand.msg
