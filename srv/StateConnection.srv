@@ -1,5 +1,7 @@
-time stamp
+std_msgs/Header header
+string child_frame_id
 geometry_msgs/Vector3 pose
 ---
-time stamp
+std_msgs/Header header
+string child_frame_id
 geometry_msgs/Vector3 pose
