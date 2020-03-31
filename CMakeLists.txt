@@ -36,6 +36,7 @@ add_message_files(
     Float64Array8.msg
     HeaderFloat64.msg
     ControlCommand.msg
+    ObserverPoint.msg
     # Message maintain by Natchanan Thongtem
     StructTelemetry.msg
     MessagePlannerSwitch.msg

@@ -1,0 +1,5 @@
+time vision_stamp
+time observer_stamp
+geometry_msgs/Point vision_point
+geometry_msgs/Point observer_point
+float64 error 
